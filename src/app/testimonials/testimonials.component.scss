@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway|Satisfy|Thasadith:700');
+
+.container-fluid{
+  padding: 1rem;
+  background-color: #fffcd0;
+}
+
+
+.jumbotron{
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+  background-color: #fffbb9;
+
+  h2{
+    font-family: 'Crimson Text', serif;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+  }
+
+}
+
+.btn-primary{
+  font-family: 'Thasadith', sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  .card{
+    background-color:#ddf398;
+
+    .card-body{
+      p{
+        font-family: 'Satisfy', cursive;
+        font-size: 1.5rem;
+        margin: 0;
+      }
+    }
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 600px){
+  .jumbotron{
+    padding: 1.2rem;
+
+    h2{
+      font-size: 1.5rem;
+    }
+
+    p{
+      font-size: 0.8rem;
+    }
+
+    .btn-primary{
+      width: 100%;
+    }
+  }
+
+  ul{
+    .card{
+      .card-body{
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+}

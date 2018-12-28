@@ -1,0 +1,40 @@
+<header>
+  <div class="jumbotron">
+    <h1 class="title text-center">Yashoda Art Classes</h1>
+    <p class="title-caption text-white">
+      In nature, light creates color; In a painting, color creates the light!
+    </p>
+    <div class="icon-holder">
+      <a href="https://www.facebook.com/YashodaArtClasses/"><img class="icon" src="assets/facebook-logo.png" alt=""></a>
+      <a href="https://www.youtube.com/channel/UCf7GDsRKAWih4IAYCpFXoGA"><img class="icon" src="assets/youtube-logo.png" alt=""></a>
+      <a href="https://goo.gl/maps/WCacymUUMgL2"><img class="icon" src="assets/google-maps-logo.png" alt=""></a>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/"  (click)="toggleNavbar()">Home</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/about" (click)="toggleNavbar()">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/gallery" (click)="toggleNavbar()">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/testimonials" (click)="toggleNavbar()">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact" (click)="toggleNavbar()">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

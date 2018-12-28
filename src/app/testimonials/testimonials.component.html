@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h2>Testimonials</h2>
+
+    <p>I have compiled here some of the feedback that I have recieved from students in Pune where I'd conducted
+      painting
+      classes for over 6 years. I sincerely thank all of them for penning down their comments. These are exact excerpts
+      from their feedback notes. More recent reviews from Hyderabad students can be viewed at <a href="https://goo.gl/maps/6TyWuaRGXaM2">my
+        google place</a>.</p>
+
+    <a class="btn btn-primary" role="button" href="  https://search.google.com/local/writereview?placeid=ChIJVSpUvcqQyzsRjFQgZoXQ6dM">
+      Write a Review</a>
+  </div>
+    <ul>
+      <li *ngFor="let review of reviews">
+        <div class="card">
+          <div class="card-body">
+            <p>{{ review.content }}</p>
+            <p style="text-align:right; color:#048ba8">~ {{ review.by }}</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+</div>

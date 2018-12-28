@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Crimsone+Text|Raleway');
+
+.container-fluid{
+  padding: 1rem;
+  background-color: #fffcd0;
+}
+
+.jumbotron{
+  padding: 2rem;
+  background-color: #ddf398;
+
+  h2,h3,h4{
+    font-family: 'Crimson Text', serif;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .call-icon{
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .table-bordered{
+    tr, td, th{
+      border-color: black;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+

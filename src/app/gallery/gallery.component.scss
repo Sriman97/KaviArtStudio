@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway');
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  color: #85878c;
+}
+
+.jumbotron{
+  margin: 5px;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+  padding: 40px;
+
+  ul{
+    padding: 0;
+    li{
+      list-style: none;
+    }
+  }
+}
+
+.tz-gallery .thumbnail {
+  padding: 0;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.tz-gallery img {
+  border-radius: 2px;
+}
+
+.tz-gallery .caption{
+  padding: 20px 25px;
+  text-align: center;
+}
+
+.tz-gallery .caption h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.tz-gallery .caption p {
+  font-size: 12px;
+  color: #7b7d7d;
+  margin: 0;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+.container-fluid{
+  padding: 1rem;
+  background-color: #fffcd0;
+}
+
+.jumbotron{
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+  background-color: #fffbb9;
+
+  h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .jumbotron{
+    padding: 1.2rem;
+
+    h2{
+      font-size: 2rem;
+    }
+
+    p{
+      font-size: 0.8rem;
+    }
+  }
+}

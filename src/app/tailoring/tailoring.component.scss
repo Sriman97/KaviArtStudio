@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway|Rancho');
+
+
+.container-fluid{
+  padding: 1rem;
+  background-color: #fffcd0;
+}
+
+.jumbotron{
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+  background: #ddf398;
+
+  h2{
+    font-family: 'Crimson Text', serif;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+  }
+
+    ul{
+      font-family: 'Rancho', cursive;
+      font-size: 1.5rem;
+
+      list-style-type: square;
+    }
+
+    h3{
+      font-family: 'Rancho', cursive;
+      font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+      img{
+        float: none;
+        margin: 5px;
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+      }
+      ul{
+        font-size: 1rem;
+      }
+
+      h3{
+        font-size: 1.5rem;
+      }
+
+  .jumbotron{
+    h2{
+      font-size: 1.8rem;
+    }
+
+    p{
+      font-size: 0.8rem;
+    }
+  }
+}

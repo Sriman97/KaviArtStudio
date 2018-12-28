@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h2>Art Gallery</h2>
+    <p>Here you can browse through some of my work over the years. Please click on any picture to start a slide show of
+      all paintings. You can also visit the <a routerLink="/students">students</a> page to get a glimpse of students in action.</p>
+  </div>
+  <div class="tz-gallery">
+    <ul>
+      <li *ngFor="let image of gallery_images">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail text-center">
+              <a class="lightbox" href="{{ image.src }}">
+                <img src="{{ image.src }}" alt="{{ image.title }}">
+              </a>
+              <div class="caption">
+                <h3>{{ image.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>

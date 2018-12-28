@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda|ZCOOL+XiaoWei|Thasadith:700');
+.icon{
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+}
+
+.jumbotron{
+  padding: 1rem;
+  margin: 0;
+  overflow: hidden;
+  background-color: #b5e61d;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+
+  .title{
+    font-size: 600%;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+  }
+
+  .title-caption{
+    font-size: 120%;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin: 0;
+  }
+
+  .icon-holder{
+    float: right;
+  }
+}
+
+
+.navbar-dark{
+
+  .navbar-nav{
+
+    width: 100%;
+
+    .nav-item{
+      width: 20%;
+      text-align: center;
+
+      .nav-link{
+        font-size: 1.25rem;
+        font-family: 'Thasadith', sans-serif;
+        color: #f7c0ad;
+      }
+
+      .nav-link:hover{
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .jumbotron{
+    padding: 0.5rem;
+
+    .title{
+      font-size: 2.4rem;
+    }
+
+    .title-caption{
+      font-size: 0.6rem;
+      float: none;
+    }
+
+    .icon-holder{
+      float: none;
+      text-align: center;
+      margin: 0 auto;
+
+      .icon{
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+  }
+
+  .navbar-dark{
+
+    .navbar-nav{
+
+      width: 100%;
+
+      .nav-item{
+        width: 100%;
+        text-align: left;
+
+
+        .nav-link{
+          font-size: 1rem;
+        }
+
+      }
+    }
+  }
+
+}
+
