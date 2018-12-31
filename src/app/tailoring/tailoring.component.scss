@@ -43,8 +43,6 @@
       img{
         float: none;
         margin: 5px;
-        width: 100%;
-        height: auto;
         margin: 5px auto;
       }
       ul{
@@ -66,7 +64,8 @@
     }
 
     .my_image{
-      margin: 5px 0;
+      margin: 5px auto;
+
     }
   }
 }
