@@ -26,11 +26,41 @@
     tr, td, th{
       border-color: black;
     }
+    width: 400px;
+  }
 
+  .mapouter{
+    padding-left: 5%;
+  }
+
+  .address{
+    h4,p{
+      padding-left: 5%;
+    }
   }
 }
 
 @media only screen and (max-width: 600px){
+
+  .jumbotron{
+    padding: 1rem;
+
+    .table-bordered{
+      font-size: 80%;
+      width: 100%;
+    }
+
+    .mapouter{
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .address{
+      h4,p{
+        margin-left: 0;
+      }
+    }
+  }
 
 }
 

@@ -5,10 +5,6 @@
       "description": "Acrylic Painting"
     },
     {
-      "img": "carousel/Acrylic Painting.JPG",
-      "description": "Acrylic Painting"
-    },
-    {
       "img": "carousel/Brushless Painting.JPG",
       "description": "Brushless Painting"
     },
@@ -135,18 +131,8 @@
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/3-d Murals.jpg",
-      "title": "3D Murals",
-      "orientation": "portrait"
-    },
-    {
       "src": "assets/gallery/Acrylic-2.JPG",
       "title": "Acrylic Painting",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Charcoal painting.JPG",
-      "title": "Charcoal Painting",
       "orientation": "portrait"
     },
     {
@@ -222,6 +208,11 @@
     {
       "src": "assets/gallery/Water Colors (Portraits).jpg",
       "title": "Water Colors(Portraits)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/3-d Murals.jpg",
+      "title": "3D Murals",
       "orientation": "portrait"
     }
   ],
