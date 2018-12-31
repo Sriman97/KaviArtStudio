@@ -21,14 +21,20 @@
     text-align: justify;
     font-size: 1.15rem;
     margin-left: 0.5rem;
+
+    a{
+      text-decoration: none;
+    }
   }
 
   img{
     float: right;
-    margin: 0 1rem;
+    margin: 2rem 1rem;
     border-radius: 0.5rem;
     border: 1px solid #d1a50c;
     padding: 0.2rem;
+    height: 300px;
+    width: 450px;
   }
 
   .content{

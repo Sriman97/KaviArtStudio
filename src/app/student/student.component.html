@@ -5,19 +5,15 @@
       on any picture to start a slide show of all of them.</p>
   </div>
   <div class="tz-gallery">
-    <ul>
-      <li *ngFor="let image of student_images">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail text-center">
-              <a class="lightbox" href="{{ image.src }}">
-                <img src="{{ image.src }}" alt="{{ image.title }}">
-              </a>
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-3" *ngFor="let image of student_images">
+        <div class="thumbnail text-center">
+          <a class="lightbox" href="{{ image.src }}">
+            <img src="{{ image.src }}">
+          </a>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </div>
 

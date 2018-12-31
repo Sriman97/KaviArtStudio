@@ -33,6 +33,10 @@
       font-size: 2rem;
     }
 
+  .my_image{
+    margin: 0.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 600px){
@@ -51,6 +55,7 @@
         font-size: 1.5rem;
       }
 
+
   .jumbotron{
     h2{
       font-size: 1.8rem;
@@ -58,6 +63,10 @@
 
     p{
       font-size: 0.8rem;
+    }
+
+    .my_image{
+      margin: 5px 0;
     }
   }
 }

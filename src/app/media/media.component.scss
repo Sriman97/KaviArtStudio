@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway|Thasadith:700');
+
+
+.container-fluid{
+  background-color: #fffcd0;
+  padding: 1rem;
+}
+
+.jumbotron{
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+  background-color: #ddf398;
+
+  h2,h4{
+    font-family: 'Crimson Text', serif;
+  }
+
+  p,ul{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 1.15rem;
+  }
+
+  img{
+    height: 300px;
+    width: 450px;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1a50c;
+    padding: 0.2rem;
+  }
+
+  .thumbnail{
+    height: 150px;
+    width: 200px;
+    margin-right: 1rem;
+  }
+
+  .article{
+    height: 500px;
+    width: 300px;
+    margin-left: 10%;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .jumbotron{
+    padding: 1rem;
+
+    h2{
+      font-size: 1.3rem;
+    }
+    h4{
+      font-size: 1.1rem;
+    }
+
+    p,ul{
+      font-size: 0.9rem;
+    }
+
+    img{
+      height: auto;
+      width: 100%;
+    }
+
+    .thumbnail{
+      height: auto;
+      width: 100%;
+    }
+
+    .article{
+      height: auto;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+}

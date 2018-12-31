@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway|Oregano');
 
 .gallery-container p.page-description {
   text-align: center;
@@ -15,13 +15,6 @@
 
 .tz-gallery {
   padding: 40px;
-
-  ul{
-    padding: 0;
-    li{
-      list-style: none;
-    }
-  }
 }
 
 .tz-gallery .thumbnail {
@@ -34,16 +27,26 @@
   border-radius: 2px;
 }
 
+.landscape{
+  height: 200px;
+  width: 300px;
+
+  margin-top: 20%;
+}
+.portrait{
+  height: 300px;
+  width: 200px;
+}
+
 .tz-gallery .caption{
   padding: 20px 25px;
   text-align: center;
 }
 
 .tz-gallery .caption h3 {
-  font-size: 14px;
-  font-weight: bold;
   margin-top: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oregano', cursive;
+  font-size: 1.3rem;
 }
 
 .tz-gallery .caption p {
@@ -90,6 +93,10 @@
 
     p{
       font-size: 0.8rem;
+    }
+
+    .landscape{
+      margin-left: 0;
     }
   }
 }

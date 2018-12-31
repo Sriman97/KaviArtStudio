@@ -1,9 +1,42 @@
 {
   "carousel": [
     {
-      "img": "https://picsum.photos/600/400",
-      "description": "Sample 1"
+      "img": "carousel/Acrylic.JPG",
+      "description": "Acrylic Painting"
+    },
+    {
+      "img": "carousel/Acrylic Painting.JPG",
+      "description": "Acrylic Painting"
+    },
+    {
+      "img": "carousel/Brushless Painting.JPG",
+      "description": "Brushless Painting"
+    },
+    {
+      "img": "carousel/Buddha Oil Painting.jpg",
+      "description": "Buddha Oil Painting"
+    },
+    {
+      "img": "carousel/Clay Sculptures.jpg",
+      "description": "Clay Sculptures"
+    },
+    {
+      "img": "carousel/Embroidery.jpg",
+      "description": "Embroidery"
+    },
+    {
+      "img": "carousel/Knife Painting.JPG",
+      "description": "Knife Painting"
+    },
+    {
+      "img": "carousel/Mix-Media.JPG",
+      "description": "Mix-Media"
+    },
+    {
+      "img": "carousel/Water Colors.JPG",
+      "description": "Water Colours"
     }
+
   ],
   "reviews": [
     {
@@ -97,14 +130,206 @@
   ],
   "gallery_images":[
     {
-      "src": "https://picsum.photos/200/300",
-      "title": "Sample"
+      "src": "assets/gallery/3-d Clay painting.jpg",
+      "title": "3D Clay Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/3-d Murals.jpg",
+      "title": "3D Murals",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Acrylic-2.JPG",
+      "title": "Acrylic Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Charcoal painting.JPG",
+      "title": "Charcoal Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Charcoal.JPG",
+      "title": "Charcoal Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Chinese Painting.JPG",
+      "title": "Chinese Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Fabric Painting.jpg",
+      "title": "Fabric Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Kerala Murals.jpg",
+      "title": "Keral Murals",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Knife painting.JPG",
+      "title": "Knife Painting",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Nirmal painting.jpg",
+      "title": "Nirmal Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil painting (figurative).jpg",
+      "title": "Oil Painting(figurative)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil Painting.JPG",
+      "title": "Oil Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Pencil Sketching(Portrait).jpg",
+      "title": "Pencil Sketching(Portrait)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/2D Painting.jpg",
+      "title": "2D Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Sketching.jpg",
+      "title": "Sketching",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Tanjore Painting on Blouse.jpg",
+      "title": "Tanjore Painting on Blouse",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Tanjore Painting.jpg",
+      "title": "Tanjore Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Water Color Painting.jpg",
+      "title": "Water Color Painting",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Water Colors (Portraits).jpg",
+      "title": "Water Colors(Portraits)",
+      "orientation": "portrait"
     }
   ],
   "student_images":[
     {
-      "src":"https://picsum.photos/200/300",
-      "title": "Sample"
+      "src":"assets/students/FB_IMG_1503232712623.jpg"
+    },
+    {
+      "src": "assets/students/FB_IMG_1540696937251 (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20161230_121646116.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170209_111501080.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170320_120118614.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180521_131530 (1).jpg"
+    },
+    {
+      "src": "assets/students/WP_20161020_13_33_28_Pro.jpg"
+    },
+    {
+      "src": "assets/students/WP_20160614_15_48_25_Pro.jpg"
+    },
+    {
+      "src": "assets/students/WP_20160521_12_45_39_Pro.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20181210_125346.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20181206_130533.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20181204_134042.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20181023_121147.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180929_124300.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180723_113607.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180714_132556.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180706_113811.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180531_131114.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180526_121048_HDR (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180518_134041.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180427_122448.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180329_120046 (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180327_114624_HDR (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180322_141140.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20180109_181647.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20171116_130517395.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20171104_121722565 (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20171102_114514317.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20171014_125132188 (1).jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170620_125358415.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170615_122435953.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170509_165714396.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170411_123531961.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170410_114655121.jpg"
+    },
+    {
+      "src": "assets/students/IMG_20170403_120819095.jpg"
     }
   ]
 

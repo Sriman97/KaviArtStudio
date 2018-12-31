@@ -16,6 +16,7 @@ import { NgbdCarouselConfig } from './carousel/carousel';
 import { StudentComponent } from './student/student.component';
 import { TailoringComponent } from './tailoring/tailoring.component';
 import { PaintingComponent } from './painting/painting.component';
+import { MediaComponent } from './media/media.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { PaintingComponent } from './painting/painting.component';
     StudentComponent,
     TailoringComponent,
     PaintingComponent,
+    MediaComponent,
   ],
   imports: [
     NgbModule,

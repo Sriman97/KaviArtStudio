@@ -31,6 +31,16 @@
     margin: 0 1rem;
   }
 
+  .portrait{
+    height: 270px;
+    width: 200px;
+  }
+
+  .my_image{
+    height: 300px;
+    width: 400px;
+  }
+
   h2{
     font-size: 2.5rem;
   }
@@ -54,8 +64,7 @@ h1,h2,h3,h4{
         text-align: justify;
       }
       .btn{
-        position: absolute;
-        bottom: 1rem;
+        margin-top: 10px;
         font-family: 'Thasadith', sans-serif;
         color: #fff;
       }
@@ -82,9 +91,17 @@ h1,h2,h3,h4{
 
     img{
       float: none;
-      width: 100%;
+      margin: 0 auto;
+    }
+
+    .my_image{
       height: auto;
-      margin: 0;
+      width: 100%;
+    }
+
+    .portrait{
+      height: auto;
+      width: 100%;
     }
 
     p{
@@ -127,12 +144,5 @@ h1,h2,h3,h4{
       }
     }
   }
-
-}
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
 
 }

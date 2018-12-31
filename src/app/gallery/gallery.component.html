@@ -5,13 +5,11 @@
       all paintings. You can also visit the <a routerLink="/students">students</a> page to get a glimpse of students in action.</p>
   </div>
   <div class="tz-gallery">
-    <ul>
-      <li *ngFor="let image of gallery_images">
         <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-3" *ngFor="let image of gallery_images">
             <div class="thumbnail text-center">
               <a class="lightbox" href="{{ image.src }}">
-                <img src="{{ image.src }}" alt="{{ image.title }}">
+                <img src="{{ image.src }}" alt="{{ image.title }}" class="{{ image.orientation }}">
               </a>
               <div class="caption">
                 <h3>{{ image.title }}</h3>
@@ -19,8 +17,6 @@
             </div>
           </div>
         </div>
-      </li>
-    </ul>
   </div>
 </div>
 

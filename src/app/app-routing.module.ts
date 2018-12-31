@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { StudentComponent } from './student/student.component';
 import { PaintingComponent } from './painting/painting.component';
 import { TailoringComponent } from './tailoring/tailoring.component';
+import { MediaComponent } from './media/media.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'testimonials', component: TestimonialsComponent },
   { path: 'students', component: StudentComponent },
   { path: 'p_d', component: PaintingComponent },
-  { path: 't_e', component: TailoringComponent }
+  { path: 't_e', component: TailoringComponent },
+  { path: 'media', component: MediaComponent }
 ];
 
 @NgModule({
