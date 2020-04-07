@@ -126,90 +126,156 @@
   ],
   "gallery_images":[
     {
-      "src": "assets/gallery/3-d Clay painting.jpg",
-      "title": "3D Clay Painting",
-      "orientation": "portrait"
+      "src": "assets/gallery/Acrylic Painting (Radha Krishna).jpg",
+      "title": "Acrylic Painting (Radha Krishna)",
+      "orientation": "square"
     },
     {
-      "src": "assets/gallery/Acrylic-2.JPG",
+      "src": "assets/gallery/Acrylic Painting.jpg",
       "title": "Acrylic Painting",
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/Charcoal.JPG",
+      "src": "assets/gallery/Basic Charcoal Painting.jpg",
+      "title": "Basic Charcoal Painting",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Basic Fabric Painting.jpg",
+      "title": "Basic Fabric Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil painting(Baghiratha).jpg",
+      "title": "Oil Painting (Baghiratha)",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Basic Ink Drawing.jpg",
+      "title": "Basic Ink Drawing",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Basic Water Colors.jpg",
+      "title": "Basic Water Colors",
+      "orientation": "square"
+    },
+    {
+      "src": "assets/gallery/Brushless Painting.jpg",
+      "title": "Brushless Painting",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Oil Painting (bathukamma).jpg",
+      "title": "Oil Painting (Bathukamma)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Charcoal Painting.jpg",
       "title": "Charcoal Painting",
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/Chinese Painting.JPG",
-      "title": "Chinese Painting",
+      "src": "assets/gallery/Clay Murals.jpg",
+      "title": "Clay Murals",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil Painting (Bullock Cart).jpg",
+      "title": "Oil Painting (Bullock Cart)",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Clay Sculpture 2.jpg",
+      "title": "Clay Sculpture",
+      "orientation": "landscape"
+    },
+    {
+      "src": "assets/gallery/Fabric Painting.jpg",
+      "title": "Fabric Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil Painting(Lady).jpg",
+      "title": "Oil Painting (Lady)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Kerala Murals (Saraswathi).jpg",
+      "title": "Kerala Murals (Sarawathi)",
       "orientation": "portrait"
     },
     {
       "src": "assets/gallery/Kerala Murals.jpg",
-      "title": "Keral Murals",
-      "orientation": "portrait"
+      "title": "Kerala Murals",
+      "orientation": "landscape"
     },
     {
-      "src": "assets/gallery/Knife painting.JPG",
+      "src": "assets/gallery/Knife Painting (scenary).jpg",
       "title": "Knife Painting",
       "orientation": "landscape"
     },
     {
-      "src": "assets/gallery/Nirmal painting.jpg",
-      "title": "Nirmal Painting",
+      "src": "assets/gallery/Mysore Painting.jpg",
+      "title": "Mysore Painting",
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/Oil painting (figurative).jpg",
-      "title": "Oil Painting(figurative)",
+      "src": "assets/gallery/Nirmal Painting (Ganesha).jpg",
+      "title": "Nirmal Painting(Ganesha)",
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/Oil Painting.JPG",
-      "title": "Oil Painting",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Pencil Sketching(Portrait).jpg",
-      "title": "Pencil Sketching(Portrait)",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/2D Painting.jpg",
-      "title": "2D Painting",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Sketching.jpg",
-      "title": "Sketching",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Tanjore Painting on Blouse.jpg",
-      "title": "Tanjore Painting on Blouse",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Tanjore Painting.jpg",
-      "title": "Tanjore Painting",
-      "orientation": "portrait"
-    },
-    {
-      "src": "assets/gallery/Water Color Painting.jpg",
-      "title": "Water Color Painting",
+      "src": "assets/gallery/Oil Painting (Elephants).jpg",
+      "title": "Oil Painting (Elephants)",
       "orientation": "landscape"
     },
     {
-      "src": "assets/gallery/Water Colors (Portraits).jpg",
-      "title": "Water Colors(Portraits)",
+      "src": "assets/gallery/Patachitra.jpg",
+      "title": "Patachitra",
       "orientation": "portrait"
     },
     {
-      "src": "assets/gallery/3-d Murals.jpg",
-      "title": "3D Murals",
+      "src": "assets/gallery/Pencil Sketching(Potrait).jpg",
+      "title": "Pencil Sketching",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Tanjore Painting (Radha Krishna).jpg",
+      "title": "Tanjore Painting (Radha Krishna)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Pencil Sketching.jpg",
+      "title": "Pencil Sketching",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Pot Painting.jpg",
+      "title": "Pot Painting",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Tanjore Painting (Lakshmi).jpg",
+      "title": "Tanjore Painting (Lakshmi)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Water Colors (Bullock).jpg",
+      "title": "Water Colors(Bullock)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Oil painting (Mirror Lady).jpg",
+      "title": "Oil Painting (Mirror Lady)",
+      "orientation": "portrait"
+    },
+    {
+      "src": "assets/gallery/Water Colors.jpg",
+      "title": "Water Colors",
       "orientation": "portrait"
     }
+
   ],
   "student_images":[
     {

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=EB+Garamond:ital@1&display=swap');
+
+.jumbotron{
+
+    padding: 0.5rem;
+    background-color: rgb(245, 124, 10);
+    margin-bottom: 1rem;
+
+    p{
+        font-family: 'Courgette', cursive;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .blinking{
+        animation:blinkingText 2.5s infinite;
+    }
+
+    @keyframes blinkingText {
+        0%{     color: #fff;    }
+        49%{    color: #fff; }
+        85%{    color: transparent; }
+        99%{    color: transparent;  }
+        100%{   color: #fff;    }
+    }
+
+
+}

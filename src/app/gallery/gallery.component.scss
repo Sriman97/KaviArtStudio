@@ -21,22 +21,33 @@
   padding: 0;
   margin-bottom: 30px;
   border: none;
+
+  .lightbox{
+    .landscape{
+      height: 200px;
+      width: 300px;
+    
+      margin-top: 20%;
+    }
+  
+    .portrait{
+      height: 300px;
+      width: 200px;
+    }
+
+    .square{
+      height: 300px;
+      width: 300px;
+    }
+  }
 }
 
 .tz-gallery img {
   border-radius: 2px;
+  pointer-events: none;
 }
 
-.landscape{
-  height: 200px;
-  width: 300px;
 
-  margin-top: 20%;
-}
-.portrait{
-  height: 300px;
-  width: 200px;
-}
 
 .tz-gallery .caption{
   padding: 20px 25px;

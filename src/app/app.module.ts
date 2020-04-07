@@ -17,31 +17,35 @@ import { StudentComponent } from './student/student.component';
 import { TailoringComponent } from './tailoring/tailoring.component';
 import { PaintingComponent } from './painting/painting.component';
 import { MediaComponent } from './media/media.component';
+import { UpdatesComponent } from './updates/updates.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavComponent,
-    HomeComponent,
-    AboutComponent,
-    TestimonialsComponent,
-    GalleryComponent,
-    ContactComponent,
-    FooterComponent,
-    NgbdCarouselConfig,
-    StudentComponent,
-    TailoringComponent,
-    PaintingComponent,
-    MediaComponent,
-  ],
-  imports: [
-    NgbModule,
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      NavComponent,
+      HomeComponent,
+      AboutComponent,
+      TestimonialsComponent,
+      GalleryComponent,
+      ContactComponent,
+      FooterComponent,
+      NgbdCarouselConfig,
+      StudentComponent,
+      TailoringComponent,
+      PaintingComponent,
+      MediaComponent,
+      UpdatesComponent
+   ],
+   imports: [
+      NgbModule,
+      BrowserModule,
+      AppRoutingModule,
+      HttpClientModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }
