@@ -148,7 +148,7 @@
     {
       "src": "assets/gallery/Oil painting(Baghiratha).jpg",
       "title": "Oil Painting (Baghiratha)",
-      "orientation": "landscape"
+      "orientation": "square"
     },
     {
       "src": "assets/gallery/Basic Ink Drawing.jpg",
@@ -159,11 +159,6 @@
       "src": "assets/gallery/Basic Water Colors.jpg",
       "title": "Basic Water Colors",
       "orientation": "square"
-    },
-    {
-      "src": "assets/gallery/Brushless Painting.jpg",
-      "title": "Brushless Painting",
-      "orientation": "landscape"
     },
     {
       "src": "assets/gallery/Oil Painting (bathukamma).jpg",
@@ -208,11 +203,6 @@
     {
       "src": "assets/gallery/Kerala Murals.jpg",
       "title": "Kerala Murals",
-      "orientation": "landscape"
-    },
-    {
-      "src": "assets/gallery/Knife Painting (scenary).jpg",
-      "title": "Knife Painting",
       "orientation": "landscape"
     },
     {
